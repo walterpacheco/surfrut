@@ -44,3 +44,17 @@ nav {
 .products{
     color: white;
 }
+
+
+.banner{
+    height: 800px;
+}
+
+.banner-img{
+    background-image: url(img/cont-page-interno/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    max-height: 800px;
+}
