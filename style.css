@@ -1,0 +1,46 @@
+body {
+    font-family: 'Quicksand' !important;
+}
+
+nav {
+    height: 150px;
+    background-color: white;
+}
+
+.nav-link {
+    color: #5C9B26 !important;
+    font-size: 30px;
+    margin: auto;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+
+.nav-text {
+    justify-content: space-around;
+}
+.logos{
+    width: 100%;
+}
+.logos ul{
+    width: 80%;
+    margin: auto;
+    text-align-last: justify;
+    padding: 0%;
+}
+.logos ul li{
+    display:inline;
+    list-style-type: none;
+}
+
+.collapse>ul>li>a>b {
+    margin-right: 10px;
+}
+.rojo{
+    background-color: #E72A4F;
+}
+.verde{
+    background-color: #5C9B26;
+}
+.products{
+    color: white;
+}
