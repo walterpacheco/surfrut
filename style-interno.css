@@ -56,8 +56,8 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
-    max-height: 800px;
+    /* height: 800px; */
+    min-height: 600px;
 }
 
 .banner-cont{
@@ -79,4 +79,58 @@ nav {
     width: 32rem;
     line-height: 40px;
     margin-top: 35px;
+}
+
+/* .info-section{
+    width: 100%;
+} */
+
+.conventional-cont{
+    width: 100%;
+display: block;
+margin: auto;
+}
+
+.conventional-cont h3{
+    color: #5C9B26;
+}
+
+.conventional-cont span{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.specific-box{
+    background-color: #5C9B26;
+}
+
+.specific-box .specific-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specific-box .specific-cont .number{
+    color: #48791D;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.specific-box .specific-cont p{
+    color: #fff;
+    font-size: 18px;
+}
+.specific-box .specific-cont .link{
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 1px 4px;
+}
+
+
+.specific-box .specific-cont a{
+    text-decoration: none;
+    border-radius: 25px;
+    color: #5C9B26;
+    font-weight: bold;
 }
