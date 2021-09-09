@@ -32,27 +32,35 @@ nav {
     list-style-type: none;
 }
 
-.collapse>ul>li>a>b {
-    margin-right: 10px;
-}
-.rojo{
-    background-color: #E72A4F;
-}
-.verde{
-    background-color: #5C9B26;
-}
-.products{
-    color: white;
-}
+.collapse>ul>li>a>b {margin-right: 10px;}
+
+.rojo{background-color: #E72A4F;}
+.t-darkrojo{color: #AD243F;}
+.gris{background-color: #737373;}
+
+.verde{background-color: #5C9B26;}
+.t-verde{color: #5C9B26;}
+
+.products{color: white;}
+.br{border-right: 1px solid #5C9B26;}
 
 
 .banner{
     margin-top: 180px;
-    height: 800px;
+    margin-bottom: 100px;
+    height: 600px;
 }
 
 .banner-img{
     background-image: url(img/cont-page-interno/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+    min-height: 600px;
+}
+.banner-img-dos{
+    background-image: url(img/cont-page-interno/niña.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +76,6 @@ nav {
 
 .banner-cont h2{
     font-weight: 500;
-    background-color: #5C9B26;
     padding: 5px 10px;
     display: inline;
     text-align: center;
@@ -81,18 +88,18 @@ nav {
     margin-top: 35px;
 }
 
-/* .info-section{
-    width: 100%;
-} */
+.info-section{
+    margin-bottom: 80px;
+}
 
 .conventional-cont{
-    width: 100%;
 display: block;
 margin: auto;
 }
 
 .conventional-cont h3{
-    color: #5C9B26;
+    font-size: 34px;
+    line-height: 36px;
 }
 
 .conventional-cont span{
@@ -102,7 +109,9 @@ margin: auto;
 }
 
 .specific-box{
-    background-color: #5C9B26;
+
+    margin: 15px 10px;
+    padding: 0 10px;
 }
 
 .specific-box .specific-cont{
@@ -110,9 +119,11 @@ margin: auto;
     justify-content: space-between;
     align-items: center;
 }
+.specific-box .specific-cont .link-item{
+}
 
 .specific-box .specific-cont .number{
-    color: #48791D;
+
     font-size: 14px;
     line-height: 18px;
 }
@@ -121,16 +132,8 @@ margin: auto;
     color: #fff;
     font-size: 18px;
 }
-.specific-box .specific-cont .link{
-    background-color: #fff;
-    border-radius: 60px;
-    padding: 1px 4px;
+
+footer p{
+    color: #fff;
 }
 
-
-.specific-box .specific-cont a{
-    text-decoration: none;
-    border-radius: 25px;
-    color: #5C9B26;
-    font-weight: bold;
-}
